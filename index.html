@@ -87,9 +87,7 @@
     </div>
 
     <footer>
-      <h4>
-        © 2023 Plafon Profile
-      </h4>
+      <h4>© 2023 Plafon Profile</h4>
     </footer>
 
     <script>
@@ -97,8 +95,17 @@
 
       const navmenu = document.querySelector(".nav-menu");
 
+      const navitem = document.querySelectorAll(".nav-menu li");
+
       hummenu.addEventListener("click", () => {
         navmenu.classList.toggle("active");
+        navmenu.classList.remove("hidden")
+      });
+
+      navitem.forEach((link) => {
+        link.addEventListener("click", function () {
+          navmenu.classList.add("hidden")
+        });
       });
     </script>
   </body>

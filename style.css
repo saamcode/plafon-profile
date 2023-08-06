@@ -157,14 +157,51 @@ footer h4 {
   }
 
   .nav-menu li {
-    color: white;
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 20px;
   }
 
+  .nav-menu li a {
+    color: white;
+  }
+
   .nav-menu.active {
     left: 0;
+  }
+
+  .nav-menu.hidden {
+    left: -100%;
+  }
+
+  .hero {
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 16px;
+  }
+
+  .hero img {
+    width: 200px;
+  }
+
+  .tentang-kami {
+    gap: 10px;
+  }
+
+  .tentang-kami img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tentang-kami h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .tentang-kami p {
+    font-size: 10px;
   }
 
   .projek .card {
