@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plafon Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="index.html">Plafon Profile</a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#tentangkami">Tentang Kami</a></li>
+        <li><a href="#projek">Projek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><a href="#lokasi">Lokasi</a></li>
+      </ul>
+
+      <div class="hum-menu"><img src="img/hum-menu.png" alt="" /></div>
+    </nav>
+
+    <div class="hero">
+      <h1>Gypsum berkualitas, pilihan pintar untuk ruangan anda</h1>
+
+      <img src="img/hero-img.png" alt="hero-img" />
+    </div>
+
+    <div class="tentang-kami" id="tentangkami">
+      <img src="img/tentang-kami-img.png" alt="" />
+
+      <div>
+        <h3>Tentang Kami</h3>
+        <p>
+          Kami adalah perusahaan yang berdedikasi untuk menyediakan solusi
+          gypsum berkualitas tinggi dalam industri konstruksi dan dekorasi.
+          Dengan pengalaman bertahun-tahun dan komitmen kami terhadap inovasi,
+          kami telah menjadi salah satu pemimpin dalam bidang ini, menyediakan
+          produk dan layanan unggulan kepada klien dari berbagai sektor. Visi
+          kami adalah menjadi mitra terpercaya dalam membangun ruang yang
+          inspiratif dan berkelas. Kami percaya bahwa ruang yang dibangun dengan
+          cermat dan keindahan dapat menginspirasi orang, menciptakan lingkungan
+          yang nyaman, dan meningkatkan kualitas hidup.
+        </p>
+      </div>
+    </div>
+
+    <div class="projek" id="projek">
+      <h3>Projek</h3>
+
+      <div class="card">
+        <img src="img/projek-1.jpg" alt="" />
+        <img src="img/projek-2.jpg" alt="" />
+        <img src="img/projek-3.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="kontak" id="kontak">
+      <h3>Kontak</h3>
+
+      <div>
+        <a href="https://wa.link/4uivfc"
+          ><img src="img/wa-icon.png" alt=""
+        /></a>
+
+        <a href="mailto:ergiramadan195@gmail.com"
+          ><img src="img/email-icon.png" alt=""
+        /></a>
+      </div>
+    </div>
+
+    <div class="lokasi" id="lokasi">
+      <h3>Lokasi</h3>
+
+      <div class="wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1691322068636!6m8!1m7!1s3txcqDm3eaq9lVut8aM4Ew!2m2!1d-6.252393552613821!2d106.6009448571214!3f8.3!4f-11.400000000000006!5f0.7820865974627469"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <h4>
+        © 2023 Plafon Profile
+      </h4>
+    </footer>
+
+    <script>
+      const hummenu = document.querySelector(".hum-menu");
+
+      const navmenu = document.querySelector(".nav-menu");
+
+      hummenu.addEventListener("click", () => {
+        navmenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
